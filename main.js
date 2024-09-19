@@ -36,10 +36,11 @@ function validarContrasena(password) {
   if (tieneMayuscula && tieneNumero && tieneSimbolo) {
     mensaje.textContent = "La contraseña es fuerte.";
     mensaje.style.color = "green";
+    mensaje.style.fontSize = "25px";
   } else {
     mensaje.textContent = "La contraseña es débil. Debe incluir al menos una mayúscula, un número y un símbolo especial.";
     mensaje.style.color = "red";
-    mensaje.style.fontSize = "20px";
+    mensaje.style.fontSize = "25px";
   }
 }
 
