@@ -39,6 +39,7 @@ function validarContrasena(password) {
   } else {
     mensaje.textContent = "La contraseña es débil. Debe incluir al menos una mayúscula, un número y un símbolo especial.";
     mensaje.style.color = "red";
+    mensaje.style.fontSize = "20px";
   }
 }
 
